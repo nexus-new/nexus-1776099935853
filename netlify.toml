@@ -1,3 +1,4 @@
+```toml
 [build]
   command = "npm run build"
   publish = ".next"
@@ -15,3 +16,4 @@
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
     X-Content-Type-Options = "nosniff"
+```
